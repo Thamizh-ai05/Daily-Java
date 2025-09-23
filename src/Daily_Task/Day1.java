@@ -6,8 +6,8 @@ public class Day1 {
         System.out.print("Enter a Number of rows: ");
         int n=sc.nextInt();
         System.out.println("Upper:");
-        for (int i=n;i>0;i--){
-            for(int j=i;j<=n;j++){
+        for (int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
             System.out.println(" ");
