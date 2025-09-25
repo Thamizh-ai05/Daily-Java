@@ -1,9 +1,7 @@
 package Daily_Task;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-import static java.util.Arrays.*;
 
 public class Day5 {
     public static void main(String[] args) {
