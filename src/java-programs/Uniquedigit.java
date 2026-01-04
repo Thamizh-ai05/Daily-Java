@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Uniquedigit {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Enter Starting Range: ");
+		System.out.print("Enter a Number: ");
 		int num=sc.nextInt();
 		 int[] freq = new int[10]; // 0 to 9 digits
         int count = 0;
