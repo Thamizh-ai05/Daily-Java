@@ -4,11 +4,11 @@ class Uniquedigit {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter a Number: ");
 		int num=sc.nextInt();
-		 int[] freq = new int[10]; // 0 to 9 digits
+		 int[] freq = new int[10];
         int count = 0;
         while (num != 0) {
             int digit = num % 10;
-            if (freq[digit] == 0) {   // first time occurrence
+            if (freq[digit] == 0) {  
                 count++;
                 freq[digit] = 1;
             }
